@@ -8,7 +8,7 @@ const Login = () => {
         <div className='w-50 mx-auto mt-5'>
             <Form className='border border-primary rounded-2 p-3'>
             <h2 className='text-primary text-center'>Login Form</h2>
-            <hr></hr>
+            <hr className="w-50 mx-auto"></hr>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />

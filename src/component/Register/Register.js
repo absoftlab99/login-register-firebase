@@ -10,7 +10,7 @@ const Register = () => {
         <div>
             <Form className="w-50 mx-auto border border-primary rounded mt-5 p-3 px-4">
                 <h2 className="text-primary text-center m-0">Registration Form</h2>
-                <hr></hr>
+                <hr className="w-50 mx-auto"></hr>
                 <Row className="mb-3">
                 <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Email</Form.Label>
