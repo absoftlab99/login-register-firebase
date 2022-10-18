@@ -12,6 +12,10 @@ function App() {
       element: <Main></Main>,
       children: [
         {
+          path: '/',
+          element: <Login></Login>
+        },
+        {
           path: '/login',
           element: <Login></Login>
         },
